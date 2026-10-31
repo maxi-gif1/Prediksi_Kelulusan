@@ -1,5 +1,5 @@
 [project]
-name = "python-logistic-kelulusan"
+name = "Prediksi-kelulusan"
 version = "1.0.0"
 description = "Predikisi Kelulusan Mahasiswa"
 readme = "README.mb"
