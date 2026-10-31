@@ -1,0 +1,24 @@
+[project]
+name = "python-logistic-kelulusan"
+version = "1.0.0"
+description = "Predikisi Kelulusan Mahasiswa"
+readme = "README.mb"
+requires-python = ">= 3.10"
+dependecies = [
+    "fastapi",
+    "pydantic",
+    "joblib",
+    "scikit-learn",
+    "numpy"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backkend = "hatchling.build"
+
+#Beritahu file yang hasil dimasukkan ke package cloude
+[tool.hatch.build.targets.wheel]
+only-include = [
+    "main.py",
+    "model_logistic_kelulusan.pkl"
+]
