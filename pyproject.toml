@@ -14,7 +14,7 @@ dependencies = [
 
 [build-system]
 requires = ["hatchling"]
-build-backkend = "hatchling.build"
+build-backend = "hatchling.build"
 
 #Beritahu file yang hasil dimasukkan ke package cloude
 [tool.hatch.build.targets.wheel]
