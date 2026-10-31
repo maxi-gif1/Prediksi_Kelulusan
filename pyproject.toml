@@ -12,6 +12,9 @@ dependencies = [
     "numpy"
 ]
 
+[tool.uv.extra-build-dependencies]
+prediksi-kelulusan = ["setuptools"]
+
 [build-system]
 requires = ["hatchling"]
 build-backkend = "hatchling.build"
