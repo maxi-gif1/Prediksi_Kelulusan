@@ -16,7 +16,7 @@ dependencies = [
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-#Beritahu file yang hasil dimasukkan ke package cloude
+#Beritahu file yang hasil diasukkan ke package cloude
 [tool.hatch.build.targets.wheel]
 only-include = [
     "main.py",
