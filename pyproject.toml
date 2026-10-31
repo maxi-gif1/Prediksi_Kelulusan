@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "Predikisi Kelulusan Mahasiswa"
 readme = "README.mb"
 requires-python = ">= 3.10"
-dependecies = [
+dependencies = [
     "fastapi",
     "pydantic",
     "joblib",
