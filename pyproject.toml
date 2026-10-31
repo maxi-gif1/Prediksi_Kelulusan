@@ -2,7 +2,7 @@
 name = "Prediksi-kelulusan"
 version = "0.1.0"
 description = "Predikisi Kelulusan Mahasiswa"
-readme = "README.mb"
+readme = "README.md"
 requires-python = ">= 3.10"
 dependencies = [
     "fastapi[standard]",
